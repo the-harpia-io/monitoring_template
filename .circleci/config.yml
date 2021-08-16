@@ -37,7 +37,7 @@ jobs:
           at: dist
       - run:
           name: Add permissions to script
-          command: chmod +x .release/upload-project.sh
+          command: chmod +x .circleci/upload-project.sh
       - run:
           name: Upload package
-          command: .release/upload-project.sh
+          command: .circleci/upload-project.sh
