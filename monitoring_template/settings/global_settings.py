@@ -2,8 +2,7 @@ import os
 
 
 class ServiceConfig:
-    SERVICE_NAME = os.getenv('SERVICE_NAME', 'microservice_template_core')
-    configuration = {}
+    SERVICE_NAME = os.getenv('SERVICE_NAME', 'monitoring_template')
 
 
 class LoggerConfig:

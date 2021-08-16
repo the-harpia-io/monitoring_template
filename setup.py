@@ -9,7 +9,7 @@ tests_require = [],
 
 setup(
     name=SERVICE_NAME,
-    version='0.0.1',
+    version='0.0.2',
     description="Monitoring template",
     url='',
     include_package_data=True,
